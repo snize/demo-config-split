@@ -5,9 +5,14 @@ dependencies: {  }
 id: prod
 label: prod
 folder: ../config/prod
-module: {  }
+module:
+  ban: 0
+  big_pipe: 0
+  dynamic_page_cache: 0
+  syslog: 0
 theme: {  }
-blacklist: {  }
+blacklist:
+  - syslog.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
