@@ -5,11 +5,28 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "^8.3"
+        "acquia/blt": "^8.3",
+        "drupal/config_split": "^1.0@beta",
+        "drupal/chosen": "^2.3",
+        "harvesthq/chosen": "^1.7"
     },
     "require-dev": {
         "geerlingguy/drupal-vm": "~4.3"
     },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "harvesthq/chosen",
+                "version": "1.7.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/harvesthq/chosen/releases/download/v1.7.0/chosen_v1.7.0.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
     "extra": {
         "enable-patching": true,
         "installer-paths": {
