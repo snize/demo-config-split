@@ -1,0 +1,14 @@
+uuid: 82d88e49-b1b1-43d1-bc90-f0aaedc5652c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.media_manager
+  module:
+    - user
+id: user_add_role_action.media_manager
+label: 'Add the Media manager role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: media_manager

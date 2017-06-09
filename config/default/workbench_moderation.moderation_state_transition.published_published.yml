@@ -1,0 +1,13 @@
+uuid: 2e9eb2fe-fc08-4819-af06-d98084f7f3ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - workbench_moderation.moderation_state.published
+_core:
+  default_config_hash: fAcec0ABnHQUhr8wXigy5e9n-byT_C1EnWWqjKY_ENE
+id: published_published
+label: Publish
+stateFrom: published
+stateTo: published
+weight: -4

@@ -1,0 +1,14 @@
+uuid: 340b059c-9ff0-48a0-8688-df3e324e455a
+langcode: en
+status: true
+dependencies:
+  config:
+    - workbench_moderation.moderation_state.archived
+    - workbench_moderation.moderation_state.published
+_core:
+  default_config_hash: DHVGeCrHa3ZUSaiKc7GvFXhCHcadQWqcc5wgaNpxnpk
+id: archived_published
+label: Un-archive
+stateFrom: archived
+stateTo: published
+weight: 0
