@@ -765,3 +765,7 @@ $settings['file_scan_ignore_directories'] = [
 # }
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
 $settings['install_profile'] = 'lightning';
+
+// Set TRUE to make config active for specific environment.
+$config['config_split.config_split.local']['status'] = TRUE;
+$config['config_split.config_split.prod']['status'] = FALSE;
