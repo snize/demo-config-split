@@ -1,14 +1,9 @@
-# My Project
+# Configuration Split Demo
 
-A brief description of My Project.
-
-## BLT
-
-Please see the [BLT documentation](http://blt.readthedocs.io/en/latest/) for information on build, testing, and deployment processes.
+A demo for Drupal 8 Configuration Split module.
 
 ## Resources
 
-* JIRA - link me!
-* GitHub - link me!
-* Acquia Cloud subscription - link me!
-* TravisCI - link me!
+* [Configuration Split | Drupal.org](https://www.drupal.org/project/config_split)
+* [acquia/blt: Acquia's Build & Launch tools for Drupal 8.](https://github.com/acquia/blt)
+* [Drupal VM - Easy local Drupal development environments](https://www.drupalvm.com/)
