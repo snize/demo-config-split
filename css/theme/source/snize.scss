@@ -1,0 +1,90 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #101A1B;
+
+$mainColor: #fff;
+$headingColor: #C7C837;
+
+$mainFontSize: 36px;
+$mainFont: "Noto Sans Japanese",'Source Sans Pro', Helvetica, sans-serif;
+
+$headingFont: "Noto Sans Japanese",'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$headingLineHeight: 1.34;
+
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.3em;
+$heading2Size: 1.5em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// some overrides after theme template import
+.reveal .slides {
+	text-align: left;
+}
+.reveal pre {
+	font-family: 'Source Code Pro', monospace;
+}
+.reveal code {
+	font-family: 'Source Code Pro', monospace;
+}
+
+.reveal pre code {
+	padding: 15px;
+}
+
+.reveal p {
+	font-size: 0.9em;
+	line-height: 1.5;
+	margin-bottom: 50px;
+}
+
+.reveal .header {
+	position: fixed;
+	top: 10px;
+}
+
+.reveal strong {
+	color: $headingColor;
+}
+
+.reveal blockquote {
+	width: 100%;
+}
+
+.reveal blockquote > p {
+	margin: 20px;
+}
