@@ -10,25 +10,21 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-
-// Include theme-specific fonts
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-
-
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #101A1B;
+$backgroundImage: linear-gradient(to right bottom, #101a1b, #2e2e0c);
 
 $mainColor: #fff;
 $headingColor: #C7C837;
 
 $mainFontSize: 36px;
-$mainFont: "Noto Sans Japanese",'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: source-han-sans-japanese, sans-serif;
 
-$headingFont: "Noto Sans Japanese",'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: source-han-sans-japanese, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: uppercase;
-$headingFontWeight: 600;
+$headingTextTransform: inherit;
+$headingFontWeight: 500;
 $headingLineHeight: 1.34;
 
 $linkColor: #42affa;
@@ -70,6 +66,12 @@ section.has-light-background {
 	font-size: 0.9em;
 	line-height: 1.5;
 	margin-bottom: 50px;
+}
+
+.reveal ul, ol {
+	font-size: 0.9em;
+	line-height: 1.5;
+	margin-bottom: 30px;
 }
 
 .reveal .header {

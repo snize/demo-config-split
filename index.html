@@ -5,7 +5,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>reveal.js</title>
+	<title>Configuration Management with Drupal</title>
+	<meta name="description" content="Drupalでの構成管理について">
+
+	<!-- facebook open graph tags -->
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://snize.github.io/demo-config-split/" />
+	<meta property="og:title" content="Configuration Management with Drupal" />
+	<meta property="og:description" content="Drupalでの構成管理について" />
+	<meta property="og:image" content="https://snize.github.io/demo-config-split/img/cover.png" />
+	<!-- facebook open graph tags -->
+
+	<!--- twitter card tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" value="snize.github.io" />
+	<meta name="twitter:url" value="https://snize.github.io/demo-config-split/" />
+	<meta name="twitter:title" value="Configuration Management with Drupal" />
+	<meta name="twitter:description" value="Drupalでの構成管理について" />
+	<meta name="twitter:image" content="https://snize.github.io/demo-config-split/img/cover.png" />
+	<!--- twitter card tags -->
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/snize.css">
+	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/snize.css">
@@ -59,6 +82,16 @@
 				]
 			});
 	</script>
+	<script>
+		(function(d) {
+		  var config = {
+			kitId: 'zle7pkn',
+			scriptTimeout: 3000,
+			async: true
+		  },
+		  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	  </script>
 </body>
 
 </html>
