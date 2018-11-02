@@ -27,7 +27,7 @@ Configration Splitで**環境ごとの設定を管理するデモ**をやりま�
  (｡・ω・｡)ﾉ ハイッ
 
 
-## なぜConfiguration Managementが重要か
+## なぜConfiguration Managementが<br>重要か
 
 それは...<br>
 この本に書いてあります！
@@ -90,11 +90,12 @@ Configration Splitで**環境ごとの設定を管理するデモ**をやりま�
 
 
 ## Configuration Management
+
 成果物の変更履歴を管理し任意のバージョンの製品を<br>再現可能とする<br>
 
-Drupalの様なOSSのCMSでの開発に持ち込めることが画期的<br>
+つらさを取り除き、**本質的な作業に集中できる**
 
-つらさを取り除き、本質的な作業に集中できる
+他のOSSのCMSにはない機能(発表者の観測範囲)<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 
